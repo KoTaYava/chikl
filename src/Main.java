@@ -52,6 +52,14 @@ public class Main {
             tot = tot + salaryPro;
             System.out.println("Месяц " + p + " сумма накоплений равна " + tot + " рублей");
         }
+        //Задача 10
+        System.out.println("Задача 10");
+        int dva = 2;
+        int res = 0;
+        for (int l =1; l <=10; l++){
+            res = dva * l;
+            System.out.println(dva + " * " +  l + " = " +  res);
+        }
 
     }
 
